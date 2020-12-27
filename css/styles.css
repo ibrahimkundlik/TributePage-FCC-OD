@@ -1,8 +1,74 @@
-:root {
-	padding: 0;
+body {
 	margin: 0;
-	box-sizing: border-box;
+	padding: 0;
+	background: url("images/back.png");
+	font: italic 1.2em "Fira Sans", serif;
+	text-align: center;
+	overflow-x: hidden;
 }
-h1 {
-	color: blueviolet;
+h4{
+	margin: 0;
+	padding: 0;
+}
+h1, h2 {
+	margin: 15px 0 15px 0;
+}
+h2{
+	text-decoration: underline;
+}
+#image{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+img {
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
+#photo {
+	padding: 0 10% 0 10%;
+}
+#img-caption {
+	max-width: 100%;
+	padding: 20px 0 10px 0;
+}
+#tribute-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+section {
+	width: 80%;
+	margin: 0 auto 0 auto;
+	border: 2px solid gray;
+	box-shadow: 5px 5px 5px gray;
+}
+.info {
+	margin: 10px 40px 20px 40px;
+	text-align: justify;
+}
+quotes-cont{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.q1, .q2, .q3, .q4, .q5{
+	width: 100%;
+	font-size: 23px;
+	color: #076184;
+}
+footer{
+	width: 100%;
+	background: #dcd8d8;
+}
+@media screen and (max-width: 550px){
+	body{
+		font-size: 16px;
+	}
+	section{
+		width: 95%;
+		margin: 0 5px 0 5px;
+	}
 }
